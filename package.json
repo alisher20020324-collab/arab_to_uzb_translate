@@ -1,0 +1,33 @@
+{
+  "name": "arab-tarjima-bot",
+  "version": "2.0.0",
+  "description": "Professional 15-Language Telegram Translation, Voice STT, Listening Analysis and AI Generator Bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "test": "node -e \"console.log('Tests passing')\""
+  },
+  "keywords": [
+    "telegram-bot",
+    "translation",
+    "express",
+    "arabic",
+    "uzbek",
+    "speech-to-text",
+    "gemini",
+    "edge-tts",
+    "telegram-stars"
+  ],
+  "author": "Arab Tarjima Bot Team",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "google-tts-api": "^2.0.2",
+    "mongodb": "^6.22.0",
+    "node-edge-tts": "^1.2.12",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}

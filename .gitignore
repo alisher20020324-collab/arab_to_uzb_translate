@@ -1,0 +1,38 @@
+# ==== Maxfiy sozlamalar (tokenlar, parollar, MongoDB ulanishi) ====
+.env
+.env.*
+!.env.example
+
+# ==== Node.js ====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+# ==== Bot ma'lumotlari (eski SQLite baza, vaqtinchalik audio/matn fayllar) ====
+data/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# ==== Loglar ====
+logs/
+*.log
+
+# ==== Vaqtinchalik media fayllar ====
+*.mp3
+*.ogg
+*.wav
+
+# ==== Muharrir va tizim fayllari ====
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==== Claude Code lokal sozlamalari ====
+.claude/settings.local.json
